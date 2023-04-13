@@ -1,0 +1,91 @@
+header {
+    background-color: #991b1b;
+    height: 15vh;
+
+}
+
+header img {
+    width: 8rem;
+    display: inline-block;
+}
+
+header li {
+    margin-right: 25px;
+    font-size: 25px;
+
+}
+
+header li a {
+    color: #ffffff;
+    transition: 300ms all;
+}
+
+header li a:hover {
+    color: black
+}
+
+
+/* main */
+
+main {
+
+    height: 85vh;
+    background-image: url(../images/bg-dino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+main img {
+    
+    margin-bottom: 5rem;
+    width: 14rem;
+    height: 14rem;
+    border: 1px solid black;
+}
+
+.container {
+    width: 30rem;
+    height: 20rem;
+    padding: 2rem 2rem;
+    
+}
+
+main h2 {
+    font-size: 35px;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #000;
+    
+}
+
+main p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    width: 30rem;
+    -webkit-text-stroke: 2px #000;
+}
+
+footer {
+    position: absolute;
+    top: 39rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer p a {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+footer p a:hover {
+    color: blue
+}
+
+
