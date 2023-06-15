@@ -1,91 +1,102 @@
+body {
+    background-image: url(../images/background.jpg);
+}
+
+
+/* Cabeçalho */
+
 header {
-    background-color: #991b1b;
-    height: 15vh;
+    width: 100%;
+    display: flex;
+    background-color: #1E1F22;
+    justify-content: space-between;
+    height: 5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
 
 }
 
-header img {
-    width: 8rem;
-    display: inline-block;
+header>img {
+    width: 120px;
+    margin-left: 1rem;
 }
 
-header li {
-    margin-right: 25px;
-    font-size: 25px;
-
+header>nav {
+    width: 60%;
 }
 
-header li a {
-    color: #ffffff;
+nav>ul {
+    height: 5rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+li>a {
+    font-size: 1.3rem;
+    color: #B8B9BC;
     transition: 300ms all;
 }
 
-header li a:hover {
-    color: black
+li>a:hover {
+    color: #FFE81F;
 }
 
+li>a:active {
+    color: #000;
+}
 
-/* main */
+/* Seção principal */
+
 
 main {
-
-    height: 85vh;
-    background-image: url(../images/bg-dino.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-}
-
-main img {
-    
-    margin-bottom: 5rem;
-    width: 14rem;
-    height: 14rem;
-    border: 1px solid black;
-}
-
-.container {
-    width: 30rem;
-    height: 20rem;
-    padding: 2rem 2rem;
-    
-}
-
-main h2 {
-    font-size: 35px;
-    padding-bottom: 1rem;
-    color: #ffffff;
-    -webkit-text-stroke: 2px #000;
-    
-}
-
-main p {
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
-    width: 30rem;
-    -webkit-text-stroke: 2px #000;
-}
-
-footer {
-    position: absolute;
-    top: 39rem;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-footer p {
-    font-weight: bold;
+main>.main-panel{
+    width: 75%;
+    background-color: #2B2D31;
+    display: flex;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    gap: 1rem;
+
+
 }
 
-footer p a {
-    font-weight: bold;
-    color: #ffffff;
+
+/* painéis */
+
+
+.left-panel {
+    width: 50%;
+    color: #FFF;
+    
+   
 }
 
-footer p a:hover {
-    color: blue
+.left-panel>h1 {
+    font-size: 50px;
+}
+
+.left-panel>p {
+    font-size: 20px;
+    margin-top: 3rem;
 }
 
 
+.right-panel {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-panel>img {
+    width: 400px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
