@@ -1,0 +1,76 @@
+.main-panel {
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+main ul {
+    display: flex;
+    width: 60%;
+    gap: 5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+main a {
+    font-size: 30px;
+}
+
+main a:hover {
+    cursor: pointer
+}
+
+.hero:hover {
+    color: #2719C7
+}
+
+.villain:hover {
+   color: #ff212e
+}
+
+.outlaw:hover {
+    color: #7cc484
+}
+
+/* cards com os personagens */
+
+.personagem {
+    display: flex;
+    background-color: #fff;
+}
+
+.personagem img {
+    width: 250px;
+    height: 330px;
+    
+}
+
+.foto-personagem {
+    background-color: #2719C7;
+    border-right: 2px solid black;
+}
+
+.info-personagem {
+    width: 500px;
+    padding: 2rem;
+}
+
+.info-personagem h2 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* customizando os personagens */
+
+#villain {
+    background-color: #ff212e;
+}
+
+#outlaw {
+    background-color: #7cc484;
+}

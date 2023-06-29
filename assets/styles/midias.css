@@ -1,0 +1,36 @@
+.main-panel {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.midia {
+    background-color: #fff;
+    width: 80%;
+    height: 320px;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.midia img {
+    width: 250px;
+    height: 320px;
+}
+
+.midia-info {
+    width: 500px;
+    border-left: 1px solid black;
+    padding: 1rem;
+}
+
+.midia-info h2 {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
