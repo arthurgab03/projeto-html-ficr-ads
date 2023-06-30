@@ -1,0 +1,48 @@
+/* estilização da página */
+
+.main-panel {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+
+/* cards dos planetas */ 
+
+.planetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.planeta {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 230px;
+    height: 310px;
+}
+
+.planeta img {
+    width: 230px;
+    height: 200px;
+}
+
+
+.planeta h3 {
+    border-bottom: 1px solid #ccc;
+}
+
+.planeta p {
+    margin: 10px 0;
+    
+}

@@ -1,0 +1,53 @@
+
+
+/* estilização da página */ 
+main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+/* conteúdo principal da página */
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+p {
+    color: #FFE81F;
+    width: 520px;
+    font-weight: bold;
+    
+}
+
+main img {
+    width: 400px;
+    height: 300px;
+}
+
+h2 {
+    color: #fff;
+}
+
+/* Tabela da página */
+
+thead, tbody{
+    background-color: #1E1F22;
+}
+
+th, td {
+    
+    color: #B8B9BC;
+    
+}
+
+td img {
+    width: 200px;
+    height: 200px;
+}
+
+td h3 {
+    margin: 0 10px;
+}

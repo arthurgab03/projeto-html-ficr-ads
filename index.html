@@ -5,43 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
-    <link href="./assets/styles/reset.css" rel="stylesheet">
-    <link href="./assets/styles/styles.css" rel="stylesheet">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/sw.ico">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
     <header>
-        <img src="./assets/images/logo.png" alt="Logo da saga Star Wars">
+        <img src="./assets/images/logo.png">
+
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="./pages/filmes.html">Filmes</a></li>
-                <li><a href="./pages/series.html">Séries</a></li>
-                <li><a href="./pages/personagens.html">Personagens</a></li>
-                <li><a href="#">Planetas</a></li>
-                <li><a href="#">Créditos</a></li>
+            <ul class="index-nav">
+                <li> <a href="https://www.linkedin.com/in/arthur-gabriel2003/" title="Meu LinkedIn" target="_blank"> <i
+                            class="fa fa-linkedin"></i></a></li>
+                <li> <a href="https://github.com/arthurgab03" title="Meu GitHub" target="_blank"> <i
+                            class="fa fa-github"></i></a></li>
             </ul>
+
         </nav>
-
     </header>
-
     <main>
+        <section> 
+            <h1>Login</h1>
 
-        <div class="main-panel">
-            <div class="left-panel">
-                <h1>Bem vindo ao blog de Star Wars!</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque repudiandae eaque sit alias, ipsum
-                    quidem exercitationem nesciunt corporis accusantium perspiciatis hic veritatis qui non distinctio
-                    pariatur facere dolores asperiores? Omnis.</p>
-            </div>
-            <div class="right-panel">
-                <img src="./assets/images/sw2022.png" alt="Banner com personagens da saga Star Wars">
-            </div>
-        </div>
+            <form action="./pages/home.html" method="get">
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+
+                <label for="senha">Digite sua senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required>
+
+                <label for="filme-favorito" class="favorito">Filme favorito da saga:</label>
+                <select id="filme-favorito" name="filme-favorito">
+                    <option>Uma Nova Esperança</option>
+                    <option>O Império Contra Ataca</option>
+                    <option>O Retorno de Jedi</option>
+                    <option>A Ameaça Fantasma</option>
+                    <option>O Ataque dos Clones</option>
+                    <option>A Guerra dos Clones</option>
+                    <option>A Vingança dos Sith</option>
+                    <option>O Despertar da Força</option>
+                    <option>Rogue One: Uma História Star Wars</option>
+                    <option>Os Últimos Jedi</option>
+                    <option>Han Solo: Uma História Star Wars</option>
+                    <option>A Ascensão Skywalker</option>
+                </select>
+
+                <input type="reset" value="Apagar" class="botao" id="apagar" name="apagar">
+                <input type="submit" value="Enviar" class="botao" id="enviar" name="enviar">
+            </form>
+        </section>
     </main>
 </body>
 
